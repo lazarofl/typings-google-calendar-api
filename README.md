@@ -4,6 +4,11 @@ Python typehint support for Google Calendar API resources.
 
 ## Available Resources
 
+  - [Acl](https://github.com/lazarofl/typings-google-calendar-api/edit/main/README.md#acl)
+  - [Calendar](https://github.com/lazarofl/typings-google-calendar-api/edit/main/README.md#calendars)
+  - [Colors](https://github.com/lazarofl/typings-google-calendar-api/edit/main/README.md#colors)
+  - [Events](https://github.com/lazarofl/typings-google-calendar-api/edit/main/README.md#events)
+
 ### Acl
 
 ```python
