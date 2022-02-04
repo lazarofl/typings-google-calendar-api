@@ -1,4 +1,5 @@
-# typings-google-calendar-api
+[![PyPI version](https://badge.fury.io/py/typings-google-calendar-api.svg)](https://badge.fury.io/py/typings-google-calendar-api)
+
 Python typehint support for Google Calendar API resources.
 
 ## Available Resources
