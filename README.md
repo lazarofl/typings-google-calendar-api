@@ -2,6 +2,12 @@
 
 Python typehint support for Google Calendar API resources.
 
+## Installation
+
+```bash
+pip install typings-google-calendar-api
+```
+
 ## Available Resources
 
   - [Acl](https://github.com/lazarofl/typings-google-calendar-api/edit/main/README.md#acl)
