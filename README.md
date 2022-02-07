@@ -1,11 +1,28 @@
 [![PyPI version](https://badge.fury.io/py/typings-google-calendar-api.svg)](https://badge.fury.io/py/typings-google-calendar-api)
 
-Python typehint support for Google Calendar API resources.
+Python typehint support for Google Calendar API responses - [Google API python](https://github.com/googleapis/google-api-python-client)
 
 ## Installation
 
 ```bash
 pip install typings-google-calendar-api
+```
+
+## Sample
+
+```python
+from googleapiclient.discovery import build_from_document
+from typing import List
+from typings_google_calendar_api.events import Event
+
+service = build_from_document(DISCOVERY_DOC, http=creds.authorize(Http()))
+
+events: List[Events] = service.events().list(
+    calendarId=self.resource_id,
+    singleEvents=True,
+    showDeleted=True,
+).execute()
+
 ```
 
 ## Available Resources
@@ -127,8 +144,6 @@ eventType: str
   - [typing_extensions](https://pypi.org/project/typing-extensions/) - for python version < 3.7
 
 ### Sample
-
-
 
 https://user-images.githubusercontent.com/913314/152586626-0bc19146-8a75-4fbc-a3c8-763c92d7b8c3.mov
 
