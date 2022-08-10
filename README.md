@@ -2,6 +2,8 @@
 
 Python typehint support for Google Calendar API responses - [Google API python](https://github.com/googleapis/google-api-python-client)
 
+https://user-images.githubusercontent.com/913314/152586626-0bc19146-8a75-4fbc-a3c8-763c92d7b8c3.mov
+
 ## Installation
 
 ```bash
@@ -142,10 +144,6 @@ eventType: str
 ### Dependencies
 
   - [typing_extensions](https://pypi.org/project/typing-extensions/) - for python version < 3.7
-
-### Sample
-
-https://user-images.githubusercontent.com/913314/152586626-0bc19146-8a75-4fbc-a3c8-763c92d7b8c3.mov
 
 
 
